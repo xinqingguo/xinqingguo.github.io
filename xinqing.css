@@ -1,0 +1,420 @@
+
+/* ------------------------------------------------------------ 
+// Footer
+ -------------------------------------------------------------*/ 
+p.footer {
+  border-top: 1px dashed #cccccc;
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+  text-align:center;
+  height:20px;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+
+/* ------------------------------------------------------------ 
+// Navigator and Title
+ -------------------------------------------------------------*/ 
+.menu {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 10px;
+}
+
+h1.title {
+  font-family: "Georgia","Times New Roman", "Times", serif;
+  font-size: 40px; 
+  font-weight bold;
+  color: black;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+h1.subtitle {
+  font-family: "Georgia", "Times New Roman", "Times", serif;
+  font-size: 18px; 
+  font-weight bold;
+  color: black;
+}
+
+p.title {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.title A {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: black;
+}
+
+.title A:link {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: black;
+}
+
+.title A:hover {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: pink;
+}
+
+ul.nav {
+  list-style-type: none;
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  line-height: 32px;
+}
+
+ul.nav li {
+  border-bottom: 1px dashed #ccc;/*the border*/
+  margin-left: -10px;
+  padding-left: 0px;
+}
+
+ul.nav A {
+  text-decoration: none; 
+  color: black;
+  font-weight: normal;
+}
+
+ul.nav A:hover {
+  text-decoration: underline; 
+  color: black;
+}
+
+
+/* ------------------------------------------------------------ 
+ * Section
+ ------------------------------------------------------------*/ 
+.section {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  padding-top: 6px;
+  height: 24px;
+  line-height: 24px;
+  text-indent: 20px;
+}
+
+.section a {
+  text-decoration: none; 
+}
+
+.subsection {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-indent: 20px;
+  margin-left:20px;
+  margin-top:0px;
+  padding-top:0px;
+  padding-bottom:6px;
+}
+
+
+.subsection a {
+  text-decoration: none; 
+}
+
+hr.section {
+  color: #cccccc;
+  border: none 0;
+  border-top: 1px dashed #ccc;/*the border*/
+  width: 100%;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 0;
+}
+
+.back {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: right;
+  margin-right: 20px;
+  color: #aaaaaa;
+}
+
+.back A {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.back A:hover {
+  text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------ 
+ * Interest
+ ------------------------------------------------------------*/ 
+ul.interest {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: left;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+/* ------------------------------------------------------------ 
+ * Paper
+ ------------------------------------------------------------*/ 
+
+ul.paper {
+  list-style-type: none;
+  font-family:   "Helvetica","Arial","Tahoma", "Geneva", sans-serif;
+  font-size: 15px;
+  line-height: 2.3ex;
+  text-align: left;
+  color: black;
+  width: 720px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+ul.paper li {
+  height: 180px;
+}
+
+ul.paper img {
+  display: block; 
+  float: left; 
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 200px;
+  height: 150px;
+}
+
+ul.paper p.name {
+  font-weight: normal;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom:15px;
+}
+
+ul.paper p.link {
+  font-weight: normal;
+  font-size: 15px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+ul.paper A {
+  text-decoration: underline; 
+  font-weight: normal;
+  font-size: 15px;
+  color: blue;
+}
+
+/*
+p.paper {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif;
+  font-size: 13px;
+  color: black;
+}
+
+.paper A:link {
+  text-decoration: underline; 
+  font-weight: bold;
+  color: black;
+}
+.paper A:visited {
+  text-decoration: underline; 
+  font-weight: bold;
+  color: black;
+}
+.paper A:active {
+  text-decoration: underline; 
+  font-weight: bold;
+  color: black;
+}
+.paper A:hover {
+  text-decoration: underline; 
+  font-weight: bold;
+  color: pink;
+}
+*/
+
+p.course {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: normal;
+}
+
+.course A:link {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: black;
+}
+.course A:visited {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: black;
+}
+.course A:active {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: black;
+}
+.course A:hover {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: pink;
+}
+
+ul.links {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 15px;
+  color: black;
+  line-height: 150%;
+  margin-left:0px;
+  margin-right:20px;
+}
+
+ul.links li {
+  margin-top:10px;
+}
+
+ul.links A {
+  text-decoration: none; 
+  font-weight: normal;
+  color: black;
+}
+ul.links A:hover {
+  text-decoration: underline; 
+  font-weight: normal;
+  color: black;
+}
+
+p.music {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 15px;
+  color: black;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p.other_content {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 14px;
+  color: black;
+  line-height: 150%;
+}
+
+p.other_content A {
+  color: cyan;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.album {
+  font-family: "Verdana", "Lucida Sans Unicode", "Geneva", "Arial", sans-serif;
+  font-size: 14px;
+  color: black;
+  text-decoration: blink;
+};
+
+.todo {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 14px; 
+  font-weight: bold; 
+  color:red;
+}
+
+h2.other_content {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Arial", sans-serif;
+  font-size: 18px; 
+  font-weight bold;
+  color: black;
+}
+
+
+/* ------------------------------------------------------------ 
+ * Work
+ ------------------------------------------------------------*/ 
+
+ul.work {
+  list-style-type: none;
+  font-family:   "Helvetica","Arial","Tahoma", "Geneva", sans-serif;
+  font-size: 15px;
+  line-height: 2.3ex;
+  text-align: left;
+  color: black;
+  width: 720px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+ul.work li {
+  height: 180px;
+}
+
+ul.work img {
+  display: block; 
+  float: left; 
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 200px;
+  height: 150px;
+}
+
+ul.work p.name {
+  font-weight: normal;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom:15px;
+}
+
+ul.work p.name A {
+  font-weight: normal;
+  font-size: 18px;
+  margin-top:0px;
+  margin-bottom:15px;
+}
+
+ul.work p.link {
+  font-weight: normal;
+  font-size: 15px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+ul.work A {
+  text-decoration: underline; 
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+}

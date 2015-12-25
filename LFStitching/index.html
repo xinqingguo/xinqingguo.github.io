@@ -1,0 +1,72 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Enhancing Light Fields through Ray-Space Stitching</title>
+<link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+
+<body>
+
+<div id="bg">
+	<div id="content">
+		<div id="header">
+			<label id="title">Enhancing Light Fields through Ray-Space Stitching</label> 
+			<br/>
+			<br/>
+			<label class="conference"><b>To Appear in IEEE Trans. on Visualization and Computer Graphics (TVCG) 2015</b></label>
+			<br/>
+			<label class="author">Xinqing Guo*<sup>1</sup>,&nbsp;Zhan Yu*<sup>1</sup>,&nbsp;Sing Bing Kang<sup>2</sup>,&nbsp;Haiting Lin<sup>1</sup>,&nbsp;Jingyi Yu<sup>1</sup></label>
+			<br/>
+			<label class="author">University of Delaware<sup>1</sup>, Microsoft Research<sup>2</sup></label>
+			<br/>
+		</div>
+		<div id="bodycontent">	
+			<br/>		
+			<label class="title"><b>Abstract</b></label>
+			<div class="abstract">
+			Light fields (LFs) have been shown to enable photorealistic visualization of complex scenes. In practice, however, an LF tends to have a relatively small angular range or spatial resolution, which limits the scope of virtual navigation. In this paper, we show how seamless virtual navigation can be enhanced by stitching multiple LFs. Our technique consists of two key components: LF registration and LF stitching. To register LFs, we use what we call the ray-space motion matrix (RSMM) to establish pairwise ray-ray correspondences. Using Plücker coordinates, we show that the RSMM is a 5 &times 6 matrix, which reduces to a 5 &times 5 matrix under pure translation and/or in-plane rotation. The final LF stitching is done using multi-resolution, high-dimensional graph-cut in order to account for possible scene motion, imperfect RSMM estimation, and/or undersampling. We show how our technique allows us to create LFs with various enhanced features: extended horizontal and/or vertical field-of-view, larger synthetic aperture and defocus blur, and larger parallax.		</div>
+			<br/>
+			
+			<label class="title"><b>Pipeline of Light Field Stitching Algorithm</b></label>
+			<br/>
+			<img width="945" src="figures/pipeline.png" alt="pipeline"/>
+			<br/><br/>
+			
+			<label class="title"><b>Enhanced Light Field Rendering </b></label>		
+			<br/>
+			<img width="945" src="figures/teaser.png" alt="teaser"/>
+			<br/><br/>
+			
+			<label class="title"><b>Comparison with Light Field Panorama (Birklbauer and Bimber '14 )</b></label>
+			<br/>
+			<img width="945" src="figures/comparison.png" alt="comparison"/>
+
+			<br/><br/>
+						
+			<label class="title"><b>Videos</b></label>
+			<br/>
+			&nbsp;[<a class="a1" href="Videos/1Dpano.mp4">1D Panorama</a>]
+			[<a class="a1" href="Videos/2Dpano.mp4">2D Panorama</a>]
+			[<a class="a1" href="Videos/AngularTransApert.mp4">Enhanced Aperture</a>]
+			[<a class="a1" href="Videos/AngularTransPara.mp4">Enhanced Translational Parallax</a>]			
+			[<a class="a1" href="Videos/AngularRot.mp4">Enhanced Rotational Parallax</a>]	
+			<br/><br/><br/>
+			
+			<label class="title"><b>Downloads</b></label>
+			<br/>
+			&nbsp;[<a class="a1" href="LFStitching.pdf">PDF (High Res)</a>]
+			[<a class="a1" href="LFStitchingO.pdf">PDF (Low Res)</a>]
+			[<a class="a1" href="LFStitching.bib">bibtex</a>]
+
+			<br/><br/>
+			
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
